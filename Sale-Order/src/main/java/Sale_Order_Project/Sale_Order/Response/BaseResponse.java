@@ -1,9 +1,11 @@
 package Sale_Order_Project.Sale_Order.Response;
 
 import lombok.*;
+import org.springframework.web.bind.annotation.ResponseStatus;
 
 @Getter
 @Setter
+@Builder
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
